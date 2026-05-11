@@ -6,6 +6,7 @@
 %define		qtver		5.15.2
 %define		kaname		calendarsupport
 Summary:	Calendarsupport
+Summary(pl.UTF-8):	Wsparcie kalandarza
 Name:		ka6-%{kaname}
 Version:	26.04.1
 Release:	1
@@ -52,6 +53,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This lib provides calendar support.
+
+%description -l pl.UTF-8
+Biblioteka ze wsparciem dla kalendarza.
 
 %package devel
 Summary:	Header files for %{kaname} development
