@@ -1,19 +1,19 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	26.08.2
+%define		kdeappsver	26.08.3
 %define		kframever	6.29.0
 %define		qtver		5.15.2
 %define		kaname		calendarsupport
 Summary:	Calendarsupport
 Summary(pl.UTF-8):	Wsparcie kalandarza
 Name:		ka6-%{kaname}
-Version:	26.08.2
+Version:	26.08.3
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	8663580b4a6e0bd4d26d881a31972ad5
+# Source0-md5:	2b2e9d73f9d939bb81379d7145671125
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Gui-devel >= 5.11.1
